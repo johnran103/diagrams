@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2022-11-14T09:14:45.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZqpilIpaQ7C8yzxutBvu" version="20.5.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1056" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="图片序列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="30" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-1" value="DLA60" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="hUvu_-i5V8mQiaMDtbR8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="280" as="sourcePoint" />
+            <mxPoint x="260" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hUvu_-i5V8mQiaMDtbR8-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-23" value="分类头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hUvu_-i5V8mQiaMDtbR8-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-46" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-24" value="检测结果" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="387.78" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-25" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.073;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hUvu_-i5V8mQiaMDtbR8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-26" value="嵌入头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hUvu_-i5V8mQiaMDtbR8-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-27" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.636;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hUvu_-i5V8mQiaMDtbR8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="455.8399999999999" y="251.48000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-29" value="回归头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450.0000000000002" y="279.9999999999999" as="geometry">
+            <mxPoint x="-26" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-30" value="嵌入" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="397.78" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hUvu_-i5V8mQiaMDtbR8-31" target="hUvu_-i5V8mQiaMDtbR8-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602.7800000000002" y="265.03703703703695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-31" value="UAVMOT" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="507.78" y="230" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-33" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hUvu_-i5V8mQiaMDtbR8-24" target="hUvu_-i5V8mQiaMDtbR8-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.78" y="380" as="sourcePoint" />
+            <mxPoint x="467.78" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-34" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hUvu_-i5V8mQiaMDtbR8-30" target="hUvu_-i5V8mQiaMDtbR8-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468.58000000000015" y="220" as="sourcePoint" />
+            <mxPoint x="487.78" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUvu_-i5V8mQiaMDtbR8-38" value="位置&amp;amp;编号" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="597.78" y="235" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
